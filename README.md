@@ -9,12 +9,13 @@
 ## 実行方法
 
 ```bash
-ruby <filename>.rb
+ruby question/<filename>.rb
 ```
 
 ## 問題一覧
 
 | ファイル | 説明 |
 |---------|------|
-| pythagorean.rb | ピタゴラス数（x² + y² = z² を満たす整数の組）を列挙 |
-| pythagorean_max.rb | 指定値以下で最大のピタゴラス数の組を探索 |
+| question/pythagorean.rb | ピタゴラス数（x² + y² = z² を満たす整数の組）を列挙 |
+| question/pythagorean_max.rb | 指定値以下で最大のピタゴラス数の組を探索 |
+| question/two_sum_count.rb | 合計が k になるユニークなペアの数を計算 |
