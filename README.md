@@ -20,3 +20,4 @@ ruby question/<filename>.rb
 | question/pythagorean_max.rb | 指定値以下で最大のピタゴラス数の組を探索 |
 | question/two_sum_count.rb | 合計が k になるユニークなペアの数を計算 |
 | question/closest_two_sum.rb | 和が目標値に最も近いペアを探索（二分探索） |
+| question/interval_scheduling.rb | 区間の重なりを解消するための最小削除数（貪欲法） |
