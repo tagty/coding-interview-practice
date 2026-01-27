@@ -21,3 +21,4 @@ ruby question/<filename>.rb
 | question/two_sum_count.rb | 合計が k になるユニークなペアの数を計算 |
 | question/closest_two_sum.rb | 和が目標値に最も近いペアを探索（二分探索） |
 | question/interval_scheduling.rb | 区間の重なりを解消するための最小削除数（貪欲法） |
+| question/weighted_interval_scheduling.rb | 重み付き区間スケジューリングで価値最大化（DP+二分探索） |
