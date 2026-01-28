@@ -25,3 +25,4 @@ ruby question/<filename>.rb
 | question/fibonacci.rb | n番目のフィボナッチ数を計算（DP） |
 | question/house_robber.rb | 隣接不可制約で盗める最大金額を計算（DP） |
 | question/house_robber_2.rb | 円形配置での隣接不可制約で盗める最大金額（DP） |
+| question/maximum_subarray.rb | 連続部分配列の最大和を計算（Kadane's Algorithm） |
