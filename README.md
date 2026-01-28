@@ -24,3 +24,4 @@ ruby question/<filename>.rb
 | question/weighted_interval_scheduling.rb | 重み付き区間スケジューリングで価値最大化（DP+二分探索） |
 | question/fibonacci.rb | n番目のフィボナッチ数を計算（DP） |
 | question/house_robber.rb | 隣接不可制約で盗める最大金額を計算（DP） |
+| question/house_robber_2.rb | 円形配置での隣接不可制約で盗める最大金額（DP） |
