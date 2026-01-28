@@ -22,5 +22,5 @@ ruby pythagorean.rb
 
 ## 言語・環境
 
-- Ruby（標準ライブラリのみ使用）
+- Ruby 3.4.1（標準ライブラリのみ使用）
 - ruby-lsp による開発サポート
