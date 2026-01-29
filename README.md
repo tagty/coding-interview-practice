@@ -28,3 +28,4 @@ ruby question/<filename>.rb
 | question/maximum_subarray.rb | 連続部分配列の最大和を計算（Kadane's Algorithm） |
 | question/maximum_product_subarray.rb | 連続部分配列の最大積を計算（DP） |
 | question/subarray_sum_equals_k.rb | 和が k になる連続部分配列の個数を計算（累積和+ハッシュ） |
+| question/best_time_to_buy_and_sell_stock.rb | 株の売買で得られる最大利益を計算（1回売買） |
