@@ -30,3 +30,4 @@ ruby question/<filename>.rb
 | question/subarray_sum_equals_k.rb | 和が k になる連続部分配列の個数を計算（累積和+ハッシュ） |
 | question/best_time_to_buy_and_sell_stock.rb | 株の売買で得られる最大利益を計算（1回売買） |
 | question/best_time_to_buy_and_sell_stock_2.rb | 株の売買で得られる最大利益を計算（複数回売買） |
+| question/longest_increasing_subarray.rb | 連続する厳密増加部分配列の最長の長さを計算 |
