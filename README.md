@@ -33,3 +33,4 @@ ruby question/<filename>.rb
 | question/longest_increasing_subarray.rb | 連続する厳密増加部分配列の最長の長さを計算 |
 | question/longest_consecutive_ones.rb | 連続する1の最大長を計算 |
 | question/longest_ones_after_one_flip.rb | 0を1個だけ1に変えてよいときの連続する1の最大長を計算 |
+| question/longest_substring_without_repeating_characters.rb | 重複なし連続部分文字列の最大長を計算 |
