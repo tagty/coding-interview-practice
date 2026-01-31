@@ -37,3 +37,4 @@ ruby question/<filename>.rb
 | question/longest_substring_with_at_most_k_distinct_characters.rb | 異なる文字が最大K種類までの最長部分文字列を計算 |
 | question/minimum_window_substring.rb | tの全文字を含む最短部分文字列を計算 |
 | question/two_sum.rb | 和がkになる2要素のインデックスを返す（ハッシュ） |
+| question/contiguous_array.rb | 0と1の個数が同じ最長連続部分配列の長さを計算 |
