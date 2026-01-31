@@ -38,3 +38,4 @@ ruby question/<filename>.rb
 | question/minimum_window_substring.rb | tの全文字を含む最短部分文字列を計算 |
 | question/two_sum.rb | 和がkになる2要素のインデックスを返す（ハッシュ） |
 | question/contiguous_array.rb | 0と1の個数が同じ最長連続部分配列の長さを計算 |
+| question/product_of_array_except_self.rb | 自分以外の要素の積を計算（前後累積積） |
