@@ -7,16 +7,6 @@
 # 	•	割り算は禁止
 # 	•	計算量 O(N) が理想
 
-def product_of_array_except_self(a)
-  ans = []
-  a.each_with_index do |x, i|
-    b = a.dup
-    b.delete_at(i)
-    ans << b.inject(:*)
-  end
-  ans
-end
-
 def product_except_self(a)
   n = a.length
   ans = Array.new(n, 1)

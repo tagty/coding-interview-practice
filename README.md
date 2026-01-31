@@ -39,3 +39,4 @@ ruby question/<filename>.rb
 | question/two_sum.rb | 和がkになる2要素のインデックスを返す（ハッシュ） |
 | question/contiguous_array.rb | 0と1の個数が同じ最長連続部分配列の長さを計算 |
 | question/product_of_array_except_self.rb | 自分以外の要素の積を計算（前後累積積） |
+| question/container_with_most_water.rb | 2本の線で囲める水の最大面積を計算（Two Pointer） |
