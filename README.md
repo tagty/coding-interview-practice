@@ -45,3 +45,4 @@ ruby question/<filename>.rb
 | question/lower_bound.rb | target以上の値が最初に現れるインデックスを探索（二分探索） |
 | question/upper_bound.rb | targetより大きい値が最初に現れるインデックスを探索（二分探索） |
 | question/search_in_rotated_sorted_array.rb | 回転ソート済み配列からtargetを探索（二分探索） |
+| question/run_length_encoding.rb | 連続する文字を「文字+出現回数」に圧縮（RLE） |
