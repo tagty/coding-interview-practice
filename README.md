@@ -41,3 +41,4 @@ ruby question/<filename>.rb
 | question/product_of_array_except_self.rb | 自分以外の要素の積を計算（前後累積積） |
 | question/container_with_most_water.rb | 2本の線で囲める水の最大面積を計算（Two Pointer） |
 | question/three_sum.rb | 合計0になる重複なし三つ組をすべて返す（Two Pointer） |
+| question/binary_search.rb | ソート済み配列からtargetのインデックスを探索（二分探索） |
