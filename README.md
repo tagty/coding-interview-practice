@@ -42,3 +42,4 @@ ruby question/<filename>.rb
 | question/container_with_most_water.rb | 2本の線で囲める水の最大面積を計算（Two Pointer） |
 | question/three_sum.rb | 合計0になる重複なし三つ組をすべて返す（Two Pointer） |
 | question/binary_search.rb | ソート済み配列からtargetのインデックスを探索（二分探索） |
+| question/lower_bound.rb | target以上の値が最初に現れるインデックスを探索（二分探索） |
