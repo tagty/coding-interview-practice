@@ -44,3 +44,4 @@ ruby question/<filename>.rb
 | question/binary_search.rb | ソート済み配列からtargetのインデックスを探索（二分探索） |
 | question/lower_bound.rb | target以上の値が最初に現れるインデックスを探索（二分探索） |
 | question/upper_bound.rb | targetより大きい値が最初に現れるインデックスを探索（二分探索） |
+| question/search_in_rotated_sorted_array.rb | 回転ソート済み配列からtargetを探索（二分探索） |
