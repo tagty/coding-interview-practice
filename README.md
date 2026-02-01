@@ -43,3 +43,4 @@ ruby question/<filename>.rb
 | question/three_sum.rb | 合計0になる重複なし三つ組をすべて返す（Two Pointer） |
 | question/binary_search.rb | ソート済み配列からtargetのインデックスを探索（二分探索） |
 | question/lower_bound.rb | target以上の値が最初に現れるインデックスを探索（二分探索） |
+| question/upper_bound.rb | targetより大きい値が最初に現れるインデックスを探索（二分探索） |
