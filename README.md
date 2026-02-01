@@ -47,3 +47,4 @@ ruby question/<filename>.rb
 | question/search_in_rotated_sorted_array.rb | 回転ソート済み配列からtargetを探索（二分探索） |
 | question/run_length_encoding.rb | 連続する文字を「文字+出現回数」に圧縮（RLE） |
 | question/valid_parentheses.rb | 括弧の対応が正しいか判定（スタック） |
+| question/min_stack.rb | 最小値取得O(1)のスタックを実装（スタック） |
