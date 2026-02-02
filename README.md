@@ -48,3 +48,9 @@ ruby question/<filename>.rb
 | question/run_length_encoding.rb | 連続する文字を「文字+出現回数」に圧縮（RLE） |
 | question/valid_parentheses.rb | 括弧の対応が正しいか判定（スタック） |
 | question/min_stack.rb | 最小値取得O(1)のスタックを実装（スタック） |
+
+## 復習問題一覧
+
+| ファイル | 説明 |
+|---------|------|
+| question2/finding_pythagorean_triples.rb | 配列内にピタゴラス数の組が存在するか判定（ハッシュ） |
