@@ -54,3 +54,4 @@ ruby question/<filename>.rb
 | ファイル | 説明 |
 |---------|------|
 | question2/finding_pythagorean_triples.rb | 配列内にピタゴラス数の組が存在するか判定（ハッシュ） |
+| question2/longest_mountain_in_array.rb | 配列内の最長の山の長さを計算（Two Pointer） |
