@@ -56,3 +56,4 @@ ruby question/<filename>.rb
 | question2/finding_pythagorean_triples.rb | 配列内にピタゴラス数の組が存在するか判定（ハッシュ） |
 | question2/longest_mountain_in_array.rb | 配列内の最長の山の長さを計算（Two Pointer） |
 | question2/longest_subarray_sum_k.rb | 和がkになる連続部分配列の最大長を計算（累積和+ハッシュ） |
+| question2/binary_search_on_answer.rb | 配列を m 分割するとき部分配列和の最大値を最小化（二分探索） |
