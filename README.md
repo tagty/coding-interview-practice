@@ -63,3 +63,4 @@ ruby question/<filename>.rb
 | question2/merge_two_sorted_lists.rb | 2つのソート済み連結リストを1つにマージ（連結リスト） |
 | question2/valid_anagram.rb | 2つの文字列がアナグラムか判定（ハッシュ） |
 | question2/kth_largest_element_in_an_array.rb | 配列のK番目に大きい要素を求める（ミニヒープ） |
+| question2/number_of_islands.rb | 2次元グリッド内の島の数を計算（DFS） |
