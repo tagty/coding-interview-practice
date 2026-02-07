@@ -60,3 +60,4 @@ ruby question/<filename>.rb
 | question2/climbing_stairs.rb | n段の階段を1段or2段で上る方法の総数を計算（DP） |
 | question2/maximum_subarray.rb | 連続部分配列の最大和を計算（Kadane's Algorithm） |
 | question2/maximum_depth_of_binary_tree.rb | 二分木の最大の深さを計算（再帰） |
+| question2/merge_two_sorted_lists.rb | 2つのソート済み連結リストを1つにマージ（連結リスト） |
