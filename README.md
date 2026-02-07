@@ -62,3 +62,4 @@ ruby question/<filename>.rb
 | question2/maximum_depth_of_binary_tree.rb | 二分木の最大の深さを計算（再帰） |
 | question2/merge_two_sorted_lists.rb | 2つのソート済み連結リストを1つにマージ（連結リスト） |
 | question2/valid_anagram.rb | 2つの文字列がアナグラムか判定（ハッシュ） |
+| question2/kth_largest_element_in_an_array.rb | 配列のK番目に大きい要素を求める（ミニヒープ） |
