@@ -67,3 +67,9 @@ ruby question/<filename>.rb
 | question2/01_knapsack_problem.rb | 容量制限付きナップサックで価値を最大化（DP） |
 | question2/group_anagrams.rb | アナグラム同士をグループ化（ハッシュ+ソート） |
 | question2/top_k_frequent_elements.rb | 出現回数が多い上位K個の要素を返す（バケットソート） |
+
+## 復習問題一覧 (3回目)
+
+| ファイル | 説明 |
+|---------|------|
+| question3/pythagorean_triplet_search.rb | 配列内にピタゴラス数の組が存在するか判定（Two Pointer） |
