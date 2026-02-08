@@ -65,3 +65,4 @@ ruby question/<filename>.rb
 | question2/kth_largest_element_in_an_array.rb | 配列のK番目に大きい要素を求める（ミニヒープ） |
 | question2/number_of_islands.rb | 2次元グリッド内の島の数を計算（DFS） |
 | question2/01_knapsack_problem.rb | 容量制限付きナップサックで価値を最大化（DP） |
+| question2/group_anagrams.rb | アナグラム同士をグループ化（ハッシュ+ソート） |
