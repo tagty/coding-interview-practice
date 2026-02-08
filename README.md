@@ -73,3 +73,4 @@ ruby question/<filename>.rb
 | ファイル | 説明 |
 |---------|------|
 | question3/pythagorean_triplet_search.rb | 配列内にピタゴラス数の組が存在するか判定（Two Pointer） |
+| question3/minimum_size_subarray_sum.rb | 合計がtarget以上となる最短連続部分配列の長さを計算（スライディングウィンドウ） |
