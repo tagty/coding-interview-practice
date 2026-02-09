@@ -6,11 +6,6 @@
 # 	•	1 ≤ a.length ≤ 200_000
 # 	•	-10^9 ≤ a[i] ≤ 10^9
 # 	•	O(N^2) は不可（O(N) で）
-# ⸻
-# ヒント（必要なら）
-# 「iで終わる最大の部分和」を cur として
-# 	•	cur = [a[i], cur + a[i]].max
-# 	•	ans = [ans, cur].max
 
 def max_subarray(a)
   cur = a[0]

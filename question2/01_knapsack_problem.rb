@@ -51,7 +51,6 @@ def knapsack_01(n, w, weight, value)
   dp[w]
 end
 
-# 例
 n = 3
 w = 7
 weight = [3, 4, 2]

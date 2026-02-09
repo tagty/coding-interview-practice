@@ -34,7 +34,7 @@ p longest_substring_k_distinct(s, k)
 # e,0,0,1,e,{e:1}
 # c,0,1,2,ec,{e:1,c:1}
 # e,0,2,3,ece,{e:2,c:1}
-# b,3,3,3,ece,{e:1,b:1}
+# b,2,3,3,ece,{e:1,b:1}
 # a,3,4,3,ece,{b:1,a:1}
 s = "abc"
 k = 1

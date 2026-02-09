@@ -20,12 +20,20 @@ def length_of_longest_substring(s)
   ans
 end
 
-s = "abba"
-p length_of_longest_substring(s)
-# => 2
 s = "abcabcbb"
 p length_of_longest_substring(s)
 # "abc" → 3 => 3
+# a,0,0,{a:0},1,a
+# b,0,1,{a:0,b:1},2,ab
+# c,0,2,{a:0,b:1,c:2},3,abc
+# a,1,3,{a:3,b:1,c:2},3,bca
+# b,2,4,{a:3,b:4,c:2},3,cab
+# c,3,5,{a:3,b:4,c:5},3,abc
+# b,5,6,{a:3,b:6,c:5},3,cb
+# b,0,7,{},0,
+s = "abba"
+p length_of_longest_substring(s)
+# => 2
 s = "abcade"
 p length_of_longest_substring(s)
 # "bcade" => 5

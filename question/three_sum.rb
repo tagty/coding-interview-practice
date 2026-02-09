@@ -8,18 +8,6 @@
 # 	•	O(N^2) を目指してください（O(N^3) は避けたい）
 # 	•	重複排除が肝です
 
-# def three_sum(a)
-#   combi = a.combination(3).to_a
-#   ans = []
-#   combi.each do |b|
-#     if b.sum == 0
-#       b.sort!
-#       ans << b
-#     end
-#   end
-#   ans.uniq
-# end
-
 def three_sum(a)
   ans = []
   a.sort!
@@ -48,9 +36,9 @@ def three_sum(a)
 end
 
 a = [-1, 0, 1, 2, -1, -4]
-# a = [-1, 0, 1]
 p three_sum(a)
 # 出力例（順序は自由）: [[-1, -1, 2], [-1, 0, 1]]
 a = [0, 0, 0, 0]
 # => [[0,0,0]]
 a = [-2,0,0,2,2]
+a = [-1, 0, 1]

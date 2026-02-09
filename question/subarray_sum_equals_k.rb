@@ -6,21 +6,6 @@
 # 	•	時間計算量：O(N)
 # 	•	追加配列はOK（Hash）
 # 	•	2重ループは禁止（N=200000想定）
-# ⸻
-# ヒント（必要なら）
-# 累積和 prefix を使うと、
-# 	•	区間 (l..r) の和 = prefix[r] - prefix[l-1]
-# 	•	prefix[r] - prefix[l-1] == k
-# 	•	つまり prefix[l-1] == prefix[r] - k
-# 👉 これを「過去に出た prefix の回数」で数える。
-
-# def subarray_sum_count(a, k)
-#   arrays = (0...a.size).flat_map do |i|
-#     (i...a.size).map { |j| a[i..j] }
-#   end
-#   arrays = arrays.map(&:sum)
-#   arrays.count(k)
-# end
 
 def subarray_sum_count(a, k)
   count = 0
@@ -39,6 +24,10 @@ a = [1,1,1]
 k = 2
 p subarray_sum_count(a, k)
 # [1,1] (0..1), [1,1] (1..2) の2個 => 2
+# x,prefix,count,freq
+# 1,1,1,{0:1,1,:1}
+# 1,2,1,{0:1,1,:1,2:1}
+# 1,3,2,{0:1,1,:1,2:1,3:1}
 a = [1,2,3]
 k = 3
 # [1,2], [3] => 2

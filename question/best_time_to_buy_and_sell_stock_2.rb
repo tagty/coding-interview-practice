@@ -7,10 +7,6 @@
 # 要求
 # 	•	O(N) で解く
 # 	•	できればシンプルに
-# ⸻
-# ヒント（ほぼ答えの方向性）
-# 上がった分だけ全部取ると最大になります。
-# prices[i] > prices[i-1] なら + (prices[i] - prices[i-1])
 
 def max_profit_multiple(prices)
   ans = 0

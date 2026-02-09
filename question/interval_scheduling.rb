@@ -7,30 +7,10 @@
 # 	•	[1,2] と [2,3] は 重なりなし（端点が接するのはOK）
 # 	•	[1,3] と [2,4] は 重なりあり
 # ⸻
-# 例
-# intervals = [[1,2],[2,3],[3,4],[1,3]]
-# # [1,3] を消せばOK
-# # => 1
-# intervals = [[1,2],[1,2],[1,2]]
-# # 2つ消す
-# # => 2
-# intervals = [[1,2],[2,3]]
-# # 0
-# ⸻
 # 制約
 # 	•	1 ≤ N ≤ 200_000
 # 	•	start, end は整数（範囲は広い）
 # 	•	O(N²) は不可
-# ⸻
-# 実装（Ruby）
-# def erase_overlap_intervals(intervals)
-#   # return Integer
-# end
-# ⸻
-# ヒント（必要なら）
-# 	•	「消す最小」＝「残す最大」と言い換えると楽
-# 	•	区間は end が早いものから取るのが定石（貪欲）
-# ⸻
 
 def erase_overlap_intervals(intervals)
   return 0 if intervals.empty?
@@ -53,6 +33,11 @@ end
 
 intervals = [[1,2],[2,3],[3,4],[1,3]]
 # [1,3] を消せばOK => 1
+# [[1,2],[1,3],[2,3],[3,4]]
+# [1,2],2,0
+# [1,3],2,1
+# [2,3],3,1
+# [3,4],4,1
 p erase_overlap_intervals(intervals)
 intervals = [[1,2],[1,2],[1,2]]
 # 2つ消す => 2

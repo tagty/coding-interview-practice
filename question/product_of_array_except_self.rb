@@ -10,19 +10,16 @@
 def product_except_self(a)
   n = a.length
   ans = Array.new(n, 1)
-
   left = 1
   (0..(n - 1)).each do |i|
     ans[i] = left
     left *= a[i]
   end
-
   right = 1
   (n - 1).downto(0).each do |i|
     ans[i] *= right
     right *= a[i]
   end
-
   ans
 end
 

@@ -11,31 +11,6 @@
 # 	•	start/end/value は整数（範囲大）
 # 	•	O(N²) は不可
 # 	•	目標: O(N log N)
-# ⸻
-# ヒント（必要なら）
-# 	•	end でソート
-# 	•	dp[i] = i番目まで見たときの最大価値
-# 	•	i番目を「採用」するなら、直前に重ならない区間 p(i) を 二分探索で探す
-
-def max_value_non_overlapping(jobs)
-  return 0 if jobs.empty?
-
-  jobs.sort_by! { |s, e, v| e }
-  ends = jobs.map { |s, e, v| e }
-
-  dp = Array.new(jobs.length, 0)
-
-  jobs.each_with_index do |(s, e, v), i|
-    # ends[0...i] の中で「end <= s」を満たす最大 index を探す
-    # Rubyのbsearch_indexは「真になる最初」なので、自前で upper_bound を作る
-    p = upper_bound(ends, s) - 1  # <= s の最後
-    take = v + (p >= 0 ? dp[p] : 0)
-    skip = (i > 0 ? dp[i - 1] : 0)
-    dp[i] = [skip, take].max
-  end
-
-  dp[-1]
-end
 
 # arrの中で「xより大きい最初の位置」（upper_bound）
 def upper_bound(arr, x)
@@ -50,6 +25,22 @@ def upper_bound(arr, x)
     end
   end
   l
+end
+
+def max_value_non_overlapping(jobs)
+  return 0 if jobs.empty?
+  jobs.sort_by! { |s, e, v| e }
+  ends = jobs.map { |s, e, v| e }
+  dp = Array.new(jobs.length, 0)
+  jobs.each_with_index do |(s, e, v), i|
+    # ends[0...i] の中で「end <= s」を満たす最大 index を探す
+    # Rubyのbsearch_indexは「真になる最初」なので、自前で upper_bound を作る
+    p = upper_bound(ends, s) - 1  # <= s の最後
+    take = v + (p >= 0 ? dp[p] : 0)
+    skip = (i > 0 ? dp[i - 1] : 0)
+    dp[i] = [skip, take].max
+  end
+  dp[-1]
 end
 
 jobs = [
